@@ -40,5 +40,16 @@ namespace SamuraiApp.Data
             IN THIS CASE SAMURAIAPP.DATA SHOULD BE THE STARTUP PROJECT
         
          */
+
+
+        /*
+         * install efcore powertools
+         tools->get-tools-and feature - > install dgml editor
+          and then add
+          <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
+          to the data project 
+          and then youc an visualise schema with relation in dgml editor
+       */
+
     }
 }
