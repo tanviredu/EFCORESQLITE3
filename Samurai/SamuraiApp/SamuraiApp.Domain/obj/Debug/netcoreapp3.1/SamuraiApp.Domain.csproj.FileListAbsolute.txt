@@ -1,0 +1,12 @@
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.deps.json
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.dll
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.pdb
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.csprojAssemblyReference.cache
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.AssemblyInfoInputs.cache
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.AssemblyInfo.cs
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.dll
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.pdb
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.runtimeconfig.json
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.runtimeconfig.dev.json
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.csproj.CoreCompileInputs.cache
+A:\EFCORE3.1sqlite3\Samurai\SamuraiApp\SamuraiApp.Domain\obj\Debug\netcoreapp3.1\SamuraiApp.Domain.genruntimeconfig.cache
