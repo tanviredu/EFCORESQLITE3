@@ -14,6 +14,13 @@ namespace SamuraiApp.Data
         {
             options.UseSqlite("Data Source=A:\\EFCORE3.1sqlite3\\Samurai\\database.db");
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // so this is a relationship declaration
+            // of the many to many relationship
+            modelBuilder.Entity<SamuraiBattle>().HasKey(s => new { s.SamuraiId, s.BattleId });
+        }
     }
 }
 
