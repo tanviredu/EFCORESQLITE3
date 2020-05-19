@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "SamuraiApp.Data/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.4",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
           "SamuraiApp.Domain": "1.0.0"

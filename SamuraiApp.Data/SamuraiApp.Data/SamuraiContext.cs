@@ -28,6 +28,7 @@ namespace SamuraiApp.Data
 
         /*
          * 
+         * remember install this tools in the executable project
          * Install-Package Microsoft.EntityFrameworkCore.Tools
             Add-Migration InitialCreate
             Update-Database

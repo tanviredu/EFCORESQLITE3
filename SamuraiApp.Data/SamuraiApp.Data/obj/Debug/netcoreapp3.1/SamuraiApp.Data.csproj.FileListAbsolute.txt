@@ -6,10 +6,10 @@ A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\bin\Debug\netcoreapp3.1\Samu
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.dll
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\bin\Debug\netcoreapp3.1\SamuraiApp.Domain.pdb
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.csprojAssemblyReference.cache
-A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.csproj.CoreCompileInputs.cache
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.AssemblyInfoInputs.cache
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.AssemblyInfo.cs
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.csproj.CopyComplete
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.dll
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.pdb
 A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.genruntimeconfig.cache
+A:\EFCORE3.1sqlite3\SamuraiApp.Data\SamuraiApp.Data\obj\Debug\netcoreapp3.1\SamuraiApp.Data.csproj.CoreCompileInputs.cache
