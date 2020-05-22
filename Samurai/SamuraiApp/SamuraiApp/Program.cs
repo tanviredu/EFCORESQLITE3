@@ -37,6 +37,8 @@ namespace SamuraiApp
             };
 
             db.Samurais.Add(samurai);
+            db.SaveChanges();
+            Console.WriteLine("[+] Data is inserted");
 
             
         }
