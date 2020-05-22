@@ -6,6 +6,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore.Design;
 using System.Collections.Generic;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
 
 namespace SamuraiApp
 {
@@ -14,7 +15,40 @@ namespace SamuraiApp
         static void Main(string[] args)
         {
             //InsertNewSamuraiWithAquote();
-            AddQuoteToExistingSmurai(1001);
+            //AddQuoteToExistingSmurai(1001);
+            EagerLoadSamuraiwithQuote();
+
+        }
+
+        private static void EagerLoadSamuraiwithQuote()
+        {
+            // you need to import entity framework core 
+            // to perform eager loading
+            var db = new SamuraiContext();
+            var samuraiWithQuotes = db.Samurais.Include(s => s.Quotes).ToList();
+
+            foreach(var item in samuraiWithQuotes)
+            {
+                Console.WriteLine($"[+] SAMURAI NAME :{item.Name}");
+                Console.WriteLine($"     [*] CLAN NAME :{item.Clan}");
+                foreach(var q in item.Quotes)
+                {
+                    Console.WriteLine($"        [*] QUOTES  : {q.Text}");
+                }
+            }
+
+            // if you want clan too with the eager loading
+            var egear = db.Samurais.Include(s => s.Quotes).Include(c => c.Clan).ToList();
+
+            foreach (var item in samuraiWithQuotes)
+            {
+                Console.WriteLine($"[+] SAMURAI NAME :{item.Name}");
+                Console.WriteLine($"     [*] CLAN NAME :{item.Clan}");
+                foreach (var q in item.Quotes)
+                {
+                    Console.WriteLine($"        [*] QUOTES  : {q.Text}");
+                }
+            }
 
         }
 
@@ -29,14 +63,16 @@ namespace SamuraiApp
             var db = new SamuraiContext();
             var quote = new Quote
             {
-                Text = "i have a plan i will tell you then then you die",
+                Text = "i have a plan ",
                 //pass the samurai id
                 // so it will direcly save
                 SamuraiId = samuraiId
             };
-
-            // now add it to the quotes table directly
+            
+            
+                        // now add it to the quotes table directly
             db.Quotes.Add(quote);
+            
             db.SaveChanges();
             Console.WriteLine("[+] Data is inserted In the Quote");
 
