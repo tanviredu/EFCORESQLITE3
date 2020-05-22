@@ -13,109 +13,39 @@ namespace SamuraiApp
     {
         static void Main(string[] args)
         {
-            InsertData();                         // C in Crud
-            ReadData();                           // R i Crud
-            UpdateData(1,"Tanvir Rahman Ornob");  // U in Crud
-            DeleteData(1);                          // D i Crud
-            
+            InsertNewSamuraiWithAquote();
 
         }
 
-        private static void DeleteData(int id)
+        private static void InsertNewSamuraiWithAquote()
         {
-            // delete the data based on the id
             var db = new SamuraiContext();
-            var samu = db.Samurais.Single(s => s.Id == id);
-            Console.WriteLine($"[-] Old Name {samu.Name}");
-            db.Samurais.Remove(samu);
-            db.SaveChanges();
-
-        }
-
-        private static void UpdateData(int id,string name)
-        {
-            // we update this with the linq
-            var db = new SamuraiContext();
-            var samu = db.Samurais.Single(s => s.Id == id);
-
-            Console.WriteLine($"[-] Old Name {samu.Name}");
-            // setting new name
-            samu.Name = name;
-            Console.WriteLine($"[+] New Name {samu.Name}");
-            db.SaveChanges();
-            Console.WriteLine($"[+] Database Updated");
-
-
-
-
-
-
-        }
-
-        private static void ReadData()
-        {
-            // read the first 10
-            // all 
-            // and orderby name ascending
-
-            var db = new SamuraiContext();
-            // this is the first 10
-            var query1 = from sm in db.Samurais
-                         select sm;
-
-            foreach (var sm in query1.Take(10))
+            var samurai = new Samurai
             {
-                Console.WriteLine($"[+] Samurai Name {sm.Name}");
-            }
-
-            var samurai_count = (from sm in db.Samurais
-                          select sm).Count();
-
-            Console.WriteLine($"[+] Total Samurai : {samurai_count}");
-        }
-
-        private static void InsertData()
-        {
-            //string dbName = "A:\\EFCORE3.1sqlite3\\Samurai\\database.db";
-            //if (File.Exists(dbName))
-            //{
-            //    File.Delete(dbName);
-            //}
-
-
-            var samuries = ProcessFileQUery("data.csv");
-            using (var sm = new SamuraiContext())
-            {
-                sm.Database.EnsureCreated();
-                if (!sm.Samurais.Any())
+                Name = "Tanvir rahman",
+                Quotes = new List<Quote>
                 {
-                    foreach (var samu in samuries)
+                    new Quote
                     {
-                        sm.Samurais.Add(samu);
-                        Console.WriteLine($"[+] Added {samu.Name}");
+                        Text = "I am happy that i become a stone cold killer"
+                    },
+                    new Quote
+                    {
+                        Text = "if you die in grudge you will be an evil"
                     }
-                    sm.SaveChanges();
-                    Console.WriteLine("[+] Data Added.");
-                    
                 }
-            }
+            };
 
+            db.Samurais.Add(samurai);
+
+            
         }
+    }
 
-        private static List<Samurai> ProcessFileQUery(string path)
-        {
-            // make a query to instert all the data from the csv to
-            // the database
-            // select each of the row from the fila and pass it
-            // to the parseCsv from the utility class
-            var query = from row in File.ReadAllLines(path).Skip(1)
-                        where row.Length > 1
-                        select utility.ParseFromCsv(row);
+        
 
-            return query.ToList();
-        }
-
+        
 
       
-    }
+    
 }
