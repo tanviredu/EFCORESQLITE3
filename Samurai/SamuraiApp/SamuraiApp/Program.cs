@@ -13,8 +13,31 @@ namespace SamuraiApp
     {
         static void Main(string[] args)
         {
-            InsertNewSamuraiWithAquote();
+            //InsertNewSamuraiWithAquote();
+            AddQuoteToExistingSmurai(1001);
 
+        }
+
+        private static void AddQuoteToExistingSmurai(int samuraiId)
+        {
+            // we wil use  adisconnected instance 
+            // that wil add another quote in the
+            // existing related table
+            var db = new SamuraiContext();
+            // get the samurai
+            var samurai = db.Samurais.Find(samuraiId);
+            // adding a new quote
+            samurai.Quotes.Add(new Quote
+            {
+                Text = "we made our own deamon"
+            });
+
+            // must remember you need to attach the
+            // quote when adding with the existing related data
+            db.Samurais.Attach(samurai);
+            db.SaveChanges();
+            Console.WriteLine("[+] New Data Attached");
+            
         }
 
         private static void InsertNewSamuraiWithAquote()
