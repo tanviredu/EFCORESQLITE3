@@ -8,9 +8,18 @@ namespace Samurai
     {
         static void Main(string[] args)
         {
+            //
+            // var cr = new CRUD();
+            // //cr.InsertData();
+            // cr.ReadData();
+            // //cr.UpdateData(1,"Tanvir Rahman");
             
-            var cr = new CRUD();
-            cr.InsertData();
+            //Interact.InsertSamuraiWithAQuote();
+            //Interact.AddQuoteToExistingSmurai(1);
+            //Interact.AddquoteWithDifferentWay(1);
+            Interact.DataEgarLoadWithQuotes();
+            
+            
         }
     }
 }
