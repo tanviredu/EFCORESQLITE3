@@ -17,7 +17,8 @@ namespace Samurai
             //Interact.InsertSamuraiWithAQuote();
             //Interact.AddQuoteToExistingSmurai(1);
             //Interact.AddquoteWithDifferentWay(1);
-            Interact.DataEgarLoadWithQuotes();
+            //Interact.DataEgarLoadWithQuotes();
+            QueryProjection.ProjectSamuraisWithQuotes();
             
             
         }
