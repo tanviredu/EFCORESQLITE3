@@ -20,7 +20,9 @@ namespace Samurai
             //Interact.DataEgarLoadWithQuotes();
             //QueryProjection.ProjectSamuraisWithQuotes();
             //QueryProjection.SelectiveQuote();
-            Many_to_many_query.getSamuraiWithBattle();
+            //Many_to_many_query.getSamuraiWithBattle();
+            //onetoone.AddSamuraiWithHorse();
+            onetoone.query_onetoone();
             
             
         }
