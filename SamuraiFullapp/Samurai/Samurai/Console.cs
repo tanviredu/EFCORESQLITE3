@@ -19,7 +19,8 @@ namespace Samurai
             //Interact.AddquoteWithDifferentWay(1);
             //Interact.DataEgarLoadWithQuotes();
             //QueryProjection.ProjectSamuraisWithQuotes();
-            QueryProjection.SelectiveQuote();
+            //QueryProjection.SelectiveQuote();
+            Many_to_many_query.getSamuraiWithBattle();
             
             
         }
