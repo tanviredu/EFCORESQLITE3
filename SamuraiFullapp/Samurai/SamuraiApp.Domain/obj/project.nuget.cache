@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "9FSqRR9dyWGB5IgBN/THA7VEDY2VthRZcdZSJUBuT3HTvluVWqBhid5lwx4ISPOGU3xJHAaXK+O4UXHk3a+y+g==",
+  "success": true,
+  "projectFilePath": "A:\\EFCORE3.1sqlite3\\SamuraiFullapp\\Samurai\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0-preview.4.20220.10\\microsoft.entityframeworkcore.5.0.0-preview.4.20220.10.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0-preview.4.20220.10\\microsoft.entityframeworkcore.abstractions.5.0.0-preview.4.20220.10.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0-preview.4.20220.10\\microsoft.entityframeworkcore.analyzers.5.0.0-preview.4.20220.10.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0-preview.4.20220.10\\microsoft.entityframeworkcore.design.5.0.0-preview.4.20220.10.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0-preview.4.20220.10\\microsoft.entityframeworkcore.relational.5.0.0-preview.4.20220.10.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.caching.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0-preview.2.20160.3\\microsoft.extensions.caching.memory.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0-preview.2.20160.3\\microsoft.extensions.configuration.binder.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-preview.2.20160.3\\microsoft.extensions.dependencyinjection.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0-preview.2.20160.3\\microsoft.extensions.logging.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.logging.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-preview.2.20160.3\\microsoft.extensions.options.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-preview.2.20160.3\\microsoft.extensions.primitives.5.0.0-preview.2.20160.3.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\system.collections.immutable\\5.0.0-preview.2.20160.6\\system.collections.immutable.5.0.0-preview.2.20160.6.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-preview.2.20160.6\\system.componentmodel.annotations.5.0.0-preview.2.20160.6.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0-preview.2.20160.6\\system.diagnostics.diagnosticsource.5.0.0-preview.2.20160.6.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\ornob\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0-preview.2.20160.6\\system.runtime.compilerservices.unsafe.5.0.0-preview.2.20160.6.nupkg.sha512"
+  ],
+  "logs": []
+}

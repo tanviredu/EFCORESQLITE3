@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samurai", "Samurai\Samurai.csproj", "{D0254BAE-6597-4ADA-A09F-2339A8279B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Data", "SamuraiApp.Data\SamuraiApp.Data.csproj", "{E879375C-8D63-4AE7-9927-C39B863DF8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamuraiApp.Domain", "SamuraiApp.Domain\SamuraiApp.Domain.csproj", "{510ED7B4-42D5-4B2E-970F-67AAA020BB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0254BAE-6597-4ADA-A09F-2339A8279B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0254BAE-6597-4ADA-A09F-2339A8279B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0254BAE-6597-4ADA-A09F-2339A8279B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0254BAE-6597-4ADA-A09F-2339A8279B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E879375C-8D63-4AE7-9927-C39B863DF8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E879375C-8D63-4AE7-9927-C39B863DF8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E879375C-8D63-4AE7-9927-C39B863DF8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E879375C-8D63-4AE7-9927-C39B863DF8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510ED7B4-42D5-4B2E-970F-67AAA020BB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510ED7B4-42D5-4B2E-970F-67AAA020BB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510ED7B4-42D5-4B2E-970F-67AAA020BB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510ED7B4-42D5-4B2E-970F-67AAA020BB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
