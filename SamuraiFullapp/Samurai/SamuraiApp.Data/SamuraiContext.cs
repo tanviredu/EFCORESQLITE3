@@ -5,6 +5,12 @@ namespace SamuraiApp.Data
 {
     public class SamuraiContext : DbContext
     {
+        // this constractor will take the data
+        // and then pass it to the startupconfiguration
+        public SamuraiContext(DbContextOptions<SamuraiContext> options):base(options)
+        {
+        }
+
         // we create the scheme based on the 
         // class Definition
         public DbSet<Samurai> Samurais { get; set; }

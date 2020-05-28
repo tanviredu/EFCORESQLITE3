@@ -22,6 +22,7 @@ namespace SamuraiApp.Domain
         public string Name { get; set; }
         public List<Quotes> Quotes { get; set; }
         public Clan CLan { get; set; }
+        public Horse Horse { get; set; }
         public List<SamuraiBattle> SamuraiBattles { get; set; }
         
         // have create a many to many relationship
